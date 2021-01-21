@@ -45,7 +45,6 @@ body {
 }
 
 .plantillaImagenGoogle {
-    background-color: pink;
     height: 10em;
     width: 99vw;
     margin-top: 1em;
@@ -58,7 +57,6 @@ body {
 .imagenGoogle {
     height: 7em;
     width: 20em;
-    background-color: springgreen;
     background-image: url(https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png);
     margin-top: 3em;
 }
@@ -66,7 +64,6 @@ body {
 .contenedorBarraBuscador {
     height: 5em;
     width: 99vw;
-    background-color: tomato;
     margin-top: 0.1em;
     display: flex;
     flex-direction: row;
@@ -77,14 +74,13 @@ body {
 .barraBuscador {
     height: 3em;
     width: 40em;
-    background-color: whitesmoke;
+    border:lightgrey 0.1em solid;
     border-radius: 1em 1em 1em 1em;
 }
 
 .contenedorBotonesMain {
     height: 3em;
     width: 99vw;
-    background-color: firebrick;
     margin-top: 1em;
     display: flex;
     flex-direction: row;
@@ -93,17 +89,23 @@ body {
     
 }
 .buscarGoogle {
-    height: 2.5em;
-    width: 10em;
-    background-color: blue;
-    margin-left: 27em;
+    height: 2.3em;
+    width: 9em;
+    background-color: #dfe1e2;
+    margin-left: 29em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tenerSuerte {
-    height: 2.5em;
-    width: 10em;
-    background-color: green;
-    margin-right: 27em;
+    height: 2.3em;
+    width: 9em;
+    background-color: #dfe1e2;
+    margin-right: 29em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
