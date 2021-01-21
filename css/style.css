@@ -1,0 +1,177 @@
+body {
+    height: 1vh;
+    width: 1vw;
+    background-color: black;
+    
+}
+
+.header {
+    background-color: yellow;
+    height: 5em;
+    width: 99vw;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.gmail {
+    background-color: red;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+}
+
+.imagenes {
+    background-color: purple;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+}
+
+.iconoApp {
+    background-color: seagreen;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+}
+
+.iconoGmail {
+    background-color: slateblue;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+}
+
+.plantillaImagenGoogle {
+    background-color: pink;
+    height: 10em;
+    width: 99vw;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenGoogle {
+    height: 7em;
+    width: 20em;
+    background-color: springgreen;
+    background-image: url(https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png);
+    margin-top: 3em;
+}
+
+.contenedorBarraBuscador {
+    height: 5em;
+    width: 99vw;
+    background-color: tomato;
+    margin-top: 0.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraBuscador {
+    height: 3em;
+    width: 40em;
+    background-color: whitesmoke;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.contenedorBotonesMain {
+    height: 3em;
+    width: 99vw;
+    background-color: firebrick;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.buscarGoogle {
+    height: 2.5em;
+    width: 10em;
+    background-color: blue;
+    margin-left: 27em;
+}
+
+.tenerSuerte {
+    height: 2.5em;
+    width: 10em;
+    background-color: green;
+    margin-right: 27em;
+}
+
+.footer {
+    background-color: yellow;
+    height: 5em;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7em;
+}
+
+.footerIzq {
+    height: 4em;
+    width: 50vw;
+    background-color: hotpink;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerDer {
+    height: 4em;
+    width: 50vw;
+    background-color: blueviolet;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.publicidad {
+    height: 4em;
+    width: 4em;
+    background-color: red;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.empresa {
+    height: 4em;
+    width: 4em;
+    background-color: green;
+    margin-right: 1em;
+}
+
+.funcionBusqueda {
+    height: 4em;
+    width: 4em;
+    background-color: slateblue;
+    margin-right: 1em;
+}
+
+.configuracion {
+    height: 4em;
+    width: 4em;
+    background-color: red;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.terminos {
+    height: 4em;
+    width: 4em;
+    background-color: red;
+    margin-left: 1em;
+}
+
+.privacidad {
+    height: 4em;
+    width: 4em;
+    background-color: red;
+    margin-left: 1em;
+}
