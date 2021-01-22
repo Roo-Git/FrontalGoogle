@@ -2,7 +2,7 @@ body {
    height: 99vh;
    width: 99vw;
 }
-.header {
+.header {                          
     height: 5em;
     width: 99vw;
     display: flex;
@@ -10,19 +10,19 @@ body {
     
 }
 
-.gmail {
+.gmail {                            
     height: 2em;
     width: 3.5em;
     margin-top: 3em;
 }
 
-.imagenes {
+.imagenes {                         
     height: 2em;
     width: 5em;
     margin-top: 3em;
 }
 
-.iconoApp {
+.iconoApp {                        
     background-image: url(https://thumbs.dreamstime.com/b/icono-de-puntos-cuadrados-configuraci%C3%B3n-o-opciones-concepto-cuenta-ayuda-estilo-plano-moderno-para-dise%C3%B1o-gr%C3%A1fico-logotipo-158886941.jpg);
     background-size: cover;
     height: 2.5em;
@@ -31,7 +31,7 @@ body {
     margin-right: 1.5em;
 }
 
-.iconoGmail {
+.iconoGmail {                       
     background-color:  #04549c;
     height: 2.1em;
     width: 2.1em;
@@ -44,7 +44,7 @@ body {
     margin-right: 1em;
 }
 
-.plantillaImagenGoogle {
+.plantillaImagenGoogle {            
     height: 10em;
     width: 99vw;
     margin-top: 1em;
@@ -54,14 +54,14 @@ body {
     align-items: center;
 }
 
-.imagenGoogle {
+.imagenGoogle {                     
     height: 7em;
     width: 20em;
     background-image: url(https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png);
     margin-top: 3em;
 }
 
-.contenedorBarraBuscador {
+.contenedorBarraBuscador {          
     height: 5em;
     width: 99vw;
     margin-top: 0.1em;
@@ -71,7 +71,7 @@ body {
     align-items: center;
 }
 
-.barraBuscador {
+.barraBuscador {                     
     height: 3em;
     width: 40em;
     border:lightgrey 0.1em solid;
@@ -109,7 +109,6 @@ body {
 }
 
 .footer {
-    background-color: yellow;
     height: 5em;
     width: 99vw;
     display: flex;
@@ -120,7 +119,6 @@ body {
 .footerIzq {
     height: 4em;
     width: 50vw;
-    background-color: hotpink;
     margin-top: 1em;
     display: flex;
     flex-direction: row;
@@ -129,53 +127,65 @@ body {
 .footerDer {
     height: 4em;
     width: 50vw;
-    background-color: blueviolet;
     margin-top: 1em;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .publicidad {
-    height: 4em;
-    width: 4em;
-    background-color: red;
-    margin-right: 1em;
-    margin-left: 1em;
+    height: 2em;
+    width: 6em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .empresa {
-    height: 4em;
+    height: 2em;
     width: 4em;
-    background-color: green;
-    margin-right: 1em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .funcionBusqueda {
-    height: 4em;
-    width: 4em;
-    background-color: slateblue;
-    margin-right: 1em;
-}
-
-.configuracion {
-    height: 4em;
-    width: 4em;
-    background-color: red;
-    margin-left: 1em;
-    margin-right: 1em;
-
-}
-
-.terminos {
-    height: 4em;
-    width: 4em;
-    background-color: red;
-    margin-left: 1em;
+    height: 2em;
+    width: 13em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .privacidad {
-    height: 4em;
-    width: 4em;
-    background-color: red;
+    height: 2em;
+    width: 4.5em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminos {
+    height: 2em;
+    width: 4.3em;
     margin-left: 1em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configuracion {
+    height: 2em;
+    width: 6em;
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
